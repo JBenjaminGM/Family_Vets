@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon/fvets.ico">
+    <!-- Enlace de los iconos -->
+    <script src="https://kit.fontawesome.com/d06af9e14f.js" crossorigin="anonymous"></script>
+    <!-- Enlace de CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Family Vets</title>
+</head>
+
+<body>
+    <!-- Ventana emergente inicio -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <img src="img/logo_vets.png" alt="logo" width="20%">
+            <h1>Bienvenidos a la nuestra pagina</h1>
+            <button class="boton" id="close">
+                cerrar
+            </button>
+        </div>
+    </div>
+    <script src="script/ventana.js"></script>
+
+    <div class="recuadro">
+        <ul>
+            <li>
+                <b class="fa-solid fa-envelope">&nbsp; <a
+                        href="veterinariafamilyvets@gmail.com">veterinariafamilyvets@gmail.com</a></b>
+            </li>
+            <li>
+                <b class="fa-solid fa-phone">&nbsp; <a href="tel:+51972698552">972 698 552</a></b>
+            </li>
+            <li>
+                <b class="fa-solid fa-location-dot">&nbsp; <a href="https://goo.gl/maps/BZHb56VFvT87gt326">Av. Mariano
+                        Cornejo 1750 - Cercado de Lima 051 Lima, Perú</a></b>
+            </li>
+        </ul>
+    </div>
+
+    <header>
+        <div class="menu">
+            <a href="index.html"><img src="img/logo_vets.png" alt="Logo"></a>
+            <b class="login"><a href="login.html" class="fa-solid fa-user"></a></b>
+            <nav>
+                <ul>
+                    <li><a href="#Quienes_somos">Quienes Somos</a></li>
+                    <li><a href="#equipo">Nuestro Equipo</a></li>
+                    <li><a href="#espec">Especializacion</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#mante" onclick="abrirMante()">Citas</a></li>
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <div id="mante" class="modal">
+        <div class="modal-content">
+            <img src="img/logo_vets.png" alt="Logo" width="20%">
+            <h1>Esta ventana se encuentra en mantenimiento</h1>
+            <button onclick="cerrarMante()" class="boton" id="cerrar">
+                cerrar
+            </button>
+        </div>
+    </div>
+
+    <script src="script/ventana.js"></script>
+
+    <!-- Imagen respecto al scroll -->
+    <section>
+        <div class="contenido1">
+            <img src="img/contenido/contenido1.jpg" alt="">
+        </div>
+    </section>
+    <script src="script/scroll.js"></script>
+
+    <!-- Opciones de la barra de menu -->
+    <section class="cuadro" id="Quienes_somos">
+        <div class="contenido2">
+            <div class="recuadro1">
+                <h1>Quienes Somos</h1>
+                <p>
+                    Family Vets es una clinica veterinaria con mas de 4 años de experiencia en cuidados atencion de
+                    mascotas.
+                    Ofreciendo una variedad de servicios de consulta, Baño y Peluqueria, PetShop medicinal, Ciruguias y
+                    Laboratorios.
+                </p>
+                <br>
+                <p>
+                    Disponemos de las mejores instalaciones y personal capacitado para el bienestar de tu mascota.
+                </p>
+            </div>
+            <div class="recuadro1">
+                <img src="img/contenido/recuadro.jpg" alt="recuadro">
+            </div>
+        </div>
+    </section>
+
+    <!-- Especializacion -->
+    <section id="espec">
+        <div class="contenido3">
+            <h2>Nuestras Especialidades</h2>
+            <div class="tablas-opciones">
+                <!--Tabla 1-->
+                <div class="tabla">
+                    <div class="tb-img">
+                        <img src="img/tabla/oncologia.jpg" alt="Oncología">
+                    </div>
+                    <div class="tb-contenido">
+                        <h2>Oncolog&iacute;a</h2>
+                    </div>
+                </div>
+
+                <!--Tabla 2-->
+                <div class="tabla">
+                    <div class="tb-img">
+                        <img src="img/tabla/odontologia.jpg" alt="Odontología">
+                    </div>
+                    <div class="tb-contenido">
+                        <h2>Odontolog&iacute;a</h2>
+                    </div>
+                </div>
+
+                <!--Tabla 3-->
+                <div class="tabla">
+                    <div class="tb-img">
+                        <img src="img/tabla/oftalmologia.jpg" alt="Oftalmologia">
+                    </div>
+                    <div class="tb-contenido">
+                        <h2>Oftalmolog&iacute;a</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido3">
+                <div class="tablas-opciones">
+                    <!-- Tabla 4 -->
+                    <div class="tabla">
+                        <div class="tb-img">
+                            <img src="img/tabla/dermatologia.jpg" alt="Oncología">
+                        </div>
+                        <div class="tb-contenido">
+                            <h2>Dermatolog&iacute;a</h2>
+                        </div>
+                    </div>
+
+                    <!-- Tabla 5 -->
+                    <div class="tabla">
+                        <div class="tb-img">
+                            <img src="img/tabla/traumatologia.jpg" alt="Odontología">
+                        </div>
+                        <div class="tb-contenido">
+                            <h2>Traumatolog&iacute;a</h2>
+                        </div>
+                    </div>
+
+                    <!-- Tabla 6 -->
+                    <div class="tabla">
+                        <div class="tabla">
+                            <div class="tb-img">
+                                <img src="img/tabla/neurologia.jpg" alt="Odontología">
+                            </div>
+                            <div class="tb-contenido">
+                                <h2>Neurolog&iacute;a</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido3">
+                <div class="tablas-opciones">
+                    <!-- Tabla 7 -->
+                    <div class="tabla">
+                        <div class="tb-img">
+                            <img src="img/tabla/fisioterapia.jpg" alt="Oncología">
+                        </div>
+                        <div class="tb-contenido">
+                            <h2>Fisioterapia</h2>
+                        </div>
+                    </div>
+
+                    <!-- Tabla 8 -->
+                    <div class="tabla">
+                        <div class="tb-img">
+                            <img src="img/tabla/cardiologia.jpg" alt="Oncología">
+                        </div>
+                        <div class="tb-contenido">
+                            <h2>Cardiolog&iacute;a</h2>
+                        </div>
+                    </div>
+
+                    <!-- Tabla 9 -->
+                    <div class="tabla">
+                        <div class="tb-img">
+                            <img src="img/tabla/endocrinologia.jpg" alt="Oncología">
+                        </div>
+                        <div class="tb-contenido">
+                            <h2>Endocrinolog&iacute;a</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido3">
+                <div class="tablas-opciones">
+                    <!-- Tabla 10 -->
+                    <div class="tabla">
+                        <div class="tb-img">
+                            <img src="img/tabla/anestesiologia.jpg" alt="Oncología">
+                        </div>
+                        <div class="tb-contenido">
+                            <h2>Anestesiolog&iacute;a</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctores -->
+    <section id="equipo">
+        <h1 class="titulo_principal">Nuestro Equipo</h1>
+        <div class="doctores-container">
+
+            <div class="doctor">
+                <img src="./img/doctora1.jpg" alt="Doctor 1">
+                <h2>Dra. Ana García</h2>
+                <p>Especializada en oncología y dermatología, la Dra. García es una veterinaria altamente capacitada en el diagnóstico y tratamiento del cáncer y las enfermedades de la piel en animales. Con habilidades en la cirugía oncológica y la dermatología clínica, la Dra. García trabaja incansablemente para mejorar la salud de sus pacientes.</p>
+            </div>
+            <div class="doctor">
+                <img src="./img/doctor1.jpg" alt="Doctor 2">
+                <h2>Dr. Jorge Pérez</h2>
+                <p>Como odontólogo veterinario y traumatología, el Dr. Pérez tiene habilidades en el cuidado dental de animales de compañía y el tratamiento de lesiones musculoesqueléticas. Con años de experiencia en la limpieza dental, extracciones y otras intervenciones dentales, el Dr. Pérez trabaja para prevenir y tratar enfermedades dentales, además de tratar lesiones traumatológicas en los animales. </p>
+            </div>
+            <div class="doctor">
+                <img src="./img/doctora2.jpg" alt="Doctor 3">
+                <h2>Dra. Karen Martínez</h2>
+                <p>Especializada en oftalmología y neurología, la Dra. Martínez es una veterinaria altamente capacitada en el diagnóstico y tratamiento de enfermedades oculares y neurológicas en animales. Con habilidades en la cirugía ocular y el manejo de afecciones neurológicas, la Dra. Martínez trabaja para mejorar la salud y calidad de vida de los animales.</p>
+            </div>
+            <div class="doctor">
+                <img src="./img/doctor2.jpg" alt="Doctor 4">
+                <h2>Dr. Rodríguez</h2>
+                <p>Con especialización en fisioterapia, cardiología, endocrinología y anestesiología, el Dr. Rodríguez tiene habilidades en la rehabilitación física, tratamiento de enfermedades cardíacas, trastornos endocrinos y el manejo del dolor en animales. Con su amplio conocimiento en estas áreas, el Dr. Rodríguez trabaja para mejorar la salud y bienestar de sus pacientes.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h1 class="titulo_principal">Nuestros Servicios</h1>
+        <div class="contenido">
+            <div class="item">
+                <img src="./img/cirugias.jpg" alt="Imagen 1" class="imagen">
+                <h2 class="titulo">Cirugías</h2>
+                <p class="texto">En nuestra clínica, ofrecemos un servicio de cirugía de alta calidad y un equipo de
+                    cirujanos
+                    altamente capacitados y especializados.</p>
+            </div>
+            <div class="item">
+                <img src="./img/citasmedias.jpg" alt="Imagen 2" class="imagen">
+                <h2 class="titulo">Consultas Médicas</h2>
+                <p class="texto">Nuestros veterinarios están altamente capacitados y especializados en diversas áreas de
+                    la medicina veterinaria.</p>
+            </div>
+            <div class="item">
+                <img src="./img/ecografia.jpg" alt="Imagen 3" class="imagen">
+                <h2 class="titulo">Ecografía</h2>
+                <p class="texto">Disponemos el servicio de ecografía, una técnica de diagnóstico por imagen con ondas
+                    sonoras de alta frecuencia para detectar problemas de salud en animales y embarazos.</p>
+            </div>
+            <div class="item">
+                <img src="./img/internamiento.jpg" alt="Imagen 4" class="imagen">
+                <h2 class="titulo">Internamientos</h2>
+                <p class="texto">Ofrecemos un servicio de internamiento supervisado por médicos veterinarios titulados y
+                    colegiados las 24 horas del día. </p>
+            </div>
+            <div class="item">
+                <img src="./img/banosycorte.jpg" alt="Imagen 5" class="imagen">
+                <h2 class="titulo">Baños y Cortes</h2>
+                <p class="texto">Ofrecemos servicios de baño y corte de alta calidad para mantener a su mascota limpia,
+                    sana y con una apariencia hermosa. </p>
+            </div>
+            <div class="item">
+                <img src="./img/rayosx.jpg" alt="Imagen 6" class="imagen">
+                <h2 class="titulo">Rayos X</h2>
+                <p class="texto">Disponemos del servicio de rayos X para diagnóstico de lesiones y enfermedades en
+                    animales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="titulo_principal">Localizanos</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.2205013188468!2d-77.07038685980534!3d-12.067707328022593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9fc13e7d833%3A0x86b6ac1689c88c00!2sVeterinaria%20Family%20Vets!5e0!3m2!1ses-419!2spe!4v1682269277004!5m2!1ses-419!2spe" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <!-- Pie de Pagina -->
+    <footer>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/familyvetsoficial" class="fa-brands fa-facebook fa-2xl"
+                            style="color: #975096;"></a></li>
+                    <li><a href="https://www.instagram.com/family_vets/?hl=es-la" class="fa-brands fa-instagram fa-2xl"
+                            style="color: #985096;"></a></li>
+                    <li><a href="https://www.tiktok.com/@family.vets?is_from_webapp=1&sender_device=pc"
+                            class="fa-brands fa-tiktok fa-2xl" style="color: #985096;"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="info">
+            <nav>
+                <ul>
+                    <li><a href="" class="fa-solid fa-location-dot" style="color: #606b85;">&nbsp; Av. Mariano Cornejo
+                            1750 - Cercado de Lima 051 Lima, Peru</a></li>
+                    <li><a href="" class="fa-solid fa-phone" style="color: #606b85;">&nbsp; 972 698 552</a></li>
+                    <li><a href="" class="fa-solid fa-envelope" style="color: #606b85;">&nbsp;
+                            veterinariafamilyvets@gmail.com</a></li>
+                </ul>
+                <div class="p_f">
+                    &copy;<b> Family Vets 2023 • Hecho con </b> <i class="fa-solid fa-heart"
+                        style="color: #ff0505;"></i>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

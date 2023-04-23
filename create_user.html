@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d06af9e14f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles_crea_user.css">
+</head>
+
+<body>
+
+    <div class="signupFrm">
+        <form action="" class="form" onsubmit="return validacion()">
+            <h1 class="title">Registro</h1>
+
+            <div class="inputContainer">
+                <input id="email" type="email" class="input" placeholder="a" required
+                    pattern="[^\s@]+@[^\s@]+\.[^\s@]+">
+                <label for="" class="label">Email</label>
+                <span id="email-error" class="error"></span>
+            </div>
+
+            <div class="inputContainer">
+                <input type="text" class="input" placeholder="a">
+                <label for="" class="label">Nombre</label>
+            </div>
+
+            <div class="inputContainer">
+                <input type="text" class="input" placeholder="a">
+                <label for="" class="label">Apellido</label>
+            </div>
+
+            <div class="inputContainer">
+                <input type="text" class="input" placeholder="a">
+                <label for="" class="label">Nombre de la mascota</label>
+            </div>
+
+            <div class="inputContainer">
+                <input id="contra" type="password" class="input" placeholder="a">
+                <label for="" class="label">Contraseña</label>
+
+                <span id="contra_error" class="error"></span>
+            </div>
+
+            <input type="submit" class="submitBtn" value="Registrar">
+        </form>
+
+        <script src="script/validacion.js"></script>
+    </div>
+
+    <div class="regreso">
+        <a href="index.html" class="btnAtras"><i class="fa-solid fa-circle-arrow-left"></i></a>
+    </div>
+
+</body>
+
+</html>
